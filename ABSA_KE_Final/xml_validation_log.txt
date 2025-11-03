@@ -1,0 +1,7 @@
+XML Validation Report
+=====================
+Date: 2025-10-30 18:22:53.048367
+XML file: knowledge_extraction_indobert_fixed.xml
+Schema file: knowledge_extraction_schema.xsd
+
+✅ XML validated successfully against schema!

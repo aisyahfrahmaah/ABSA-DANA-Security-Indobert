@@ -16,7 +16,7 @@ Five classification models are compared — **SVM, Random Forest, CNN, BiLSTM, a
 | Folder | Description |
 |--------|--------------|
 | `Dataset/` | Filtered, non-filtered (temporal), and cross-domain (GoPay) datasets |
-| `Notebook/` | Jupyter/Colab notebooks for preprocessing, training, evaluation, and XML generation |
+| `Notebook/` | Google Colab notebooks for preprocessing, training, evaluation, and XML generation |
 | `ABSA_KE_Final/` | Final XML outputs and schema (XSD) for knowledge extraction |
 | `saved_models/` | Trained model checkpoints (tracked via Git LFS or hosted externally) |
 | `.gitattributes` / `.gitignore` | Configuration for large file tracking |
@@ -31,19 +31,16 @@ You can directly open and execute the project using Google Colab:
 Before running, ensure the following Python libraries are installed:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn tensorflow torch transformers tqdm google-play-scraper joblib lxml
-
-
-
 📦 Model Download
 Due to GitHub file size limitations, the fine-tuned model files are hosted externally:
 
-IndoBERT fine-tuned model: [Google Drive Link](https://drive.google.com/drive/folders/1-R8GM2v4kk7NHKqNNwFbG30hZpxN71so?usp=drive_link)k
+IndoBERT fine-tuned model → Download
 
-Random Forest pipeline: [Google Drive Link](https://drive.google.com/file/d/1tEr-6MMyQprxGiAIii8qhQoKcDfgc8-P/view?usp=drive_link)
+Random Forest pipeline → Download
 
 🔁 Reproducibility
 Main experiment notebook:
-Notebook/fixed_revisi version_absa_svm_random_forest_cnn_bilstm_indobert_KE_xmly.ipynb
+Notebook/fixed_revisi_version_absa_svm_random_forest_cnn_bilstm_indobert_KE_xml.ipynb
 
 5-Fold Cross-Validation Script:
 Available inside the notebook or as Notebook/run_5fold.sh
@@ -71,8 +68,10 @@ The XML output encodes each review’s aspect, sentiment polarity, opinion words
 
 🧾 Citation
 If you use this repository or its findings, please cite:
-A. F. Fatihaturrahmah, “A Hybrid Approach of Aspect-Based Sentiment Analysis and Knowledge Extraction for Evaluating Security Perceptions in Digital Payment Applications,” 2025.
 
+css
+Salin kode
+A. F. Fatihaturrahmah, “A Hybrid Approach of Aspect-Based Sentiment Analysis and Knowledge Extraction for Evaluating Security Perceptions in Digital Payment Applications,” 2025.
 📩 Contact
 Author: Aisyah Fatihaturrahmah
 Institution: Faculty of Computer Science, Universitas Sriwijaya
